@@ -254,5 +254,5 @@ Master's in Business Intelligence — Dalarna University
 ---
 
 *⭐ If you found this project helpful, please give it a star!*
-```
+
 
