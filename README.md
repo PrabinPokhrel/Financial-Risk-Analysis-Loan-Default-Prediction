@@ -206,7 +206,7 @@ financial_risk/
 ## 📊 Dashboard Preview
 
 ### Page 1 — Loan Risk Overview
-![Loan Risk Overview](Screenshots/page1_loan_risk_overview.png)
+![Loan Risk Overview](Screenshots/Loan%20risk%20overview.png)
 
 ### Page 2 — High Risk Loan Customers
 ![High Risk Customers](Screenshots/page2_high_risk_customers.png)
