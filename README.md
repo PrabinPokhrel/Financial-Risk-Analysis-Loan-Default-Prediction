@@ -1,4 +1,4 @@
-# 💰 Financial Risk Analysis — Loan Default Prediction
+# 💰 Financial Risk Analysis - Loan Default Prediction
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue?style=flat&logo=python)
 ![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-yellow?style=flat&logo=powerbi)
@@ -48,13 +48,13 @@ Loan defaults cost banks and financial institutions billions every year. This pr
 | **Default Rate** | 21.7% |
 
 **Key Features:**
-- `loan_grade` — Credit grade A (best) to G (worst)
-- `loan_percent_income` — Loan amount as % of income
-- `person_income` — Annual income
-- `loan_int_rate` — Interest rate
-- `loan_amnt` — Loan amount requested
-- `cb_person_default_on_file` — Previous default history
-- `person_home_ownership` — Rent / Own / Mortgage
+- `loan_grade` - Credit grade A (best) to G (worst)
+- `loan_percent_income` - Loan amount as % of income
+- `person_income` - Annual income
+- `loan_int_rate` - Interest rate
+- `loan_amnt` - Loan amount requested
+- `cb_person_default_on_file` - Previous default history
+- `person_home_ownership` - Rent / Own / Mortgage
 
 ---
 
@@ -107,20 +107,20 @@ financial_risk/
 
 ## 🔄 Analysis Steps
 
-### Step 1 — Data Loading & Cleaning
+### Step 1 Data Loading & Cleaning
 - Loaded 32,581 raw records
 - Removed missing values and outliers
 - Removed ages over 100 and employment length over 60 years
 - Final clean dataset: **28,632 records**
 
-### Step 2 — Exploratory Analysis (5 Charts)
+### Step 2 Exploratory Analysis (5 Charts)
 - Overall loan default distribution
 - Default rate by loan grade (A–G)
 - Income distribution: Paid vs Default
 - Interest rate: Paid vs Default
 - Previous default history impact
 
-### Step 3 — Machine Learning Models
+### Step 3 Machine Learning Models
 - Encoded categorical features using LabelEncoder
 - Split data: 80% train / 20% test (random_state=42)
 - Trained Logistic Regression and Random Forest
@@ -128,7 +128,7 @@ financial_risk/
 - Generated default probability scores per borrower
 - Assigned Risk Level: Low / Medium / High
 
-### Step 4 — Power BI Dashboard
+### Step 4 Power BI Dashboard
 - 3-page interactive dashboard
 - Page 1: Loan Risk Overview
 - Page 2: High Risk Loan Customers
@@ -140,12 +140,12 @@ financial_risk/
 
 | Finding | Detail |
 |---|---|
-| Overall default rate | **21.7%** — 6,202 out of 28,632 loans defaulted |
+| Overall default rate | **21.7%** - 6,202 out of 28,632 loans defaulted |
 | Loan grade risk | Grade A = **9.6%** default vs Grade G = **98.3%** default |
 | Income gap | Defaulters earn median **$42K/year** vs **$60K** for paid |
 | Interest rate | Defaulters pay median **13.5%** vs **10.6%** for paid |
 | Previous default | No history = **18.2%** vs Has history = **37.7%** |
-| Top predictor | `loan_percent_income` — loan as % of income |
+| Top predictor | `loan_percent_income` - loan as % of income |
 
 ---
 
@@ -205,13 +205,13 @@ financial_risk/
 
 ## 📊 Dashboard Preview
 
-### Page 1 — Loan Risk Overview
+### Page 1 Loan Risk Overview
 ![Loan Risk Overview](financial_risk/Screenshots/Loan%20risk%20overview.png)
 
-### Page 2 — High Risk Loan Customers
+### Page 2 High Risk Loan Customers
 ![High Risk Customers](financial_risk/Screenshots/High%20risk%20customer.png)
 
-### Page 3 — Risk Insights & Recommendations
+### Page 3 Risk Insights & Recommendations
 ![Risk Insights](financial_risk/Screenshots/Risk%20insights.png)
 
 ---
@@ -241,14 +241,14 @@ python loan_risk_analysis.py
 
 ### 5. View the Power BI dashboard
 - Open `PowerBI/Financial_Risk_Dashboard.pbix` in Power BI Desktop
-- Power BI Desktop is free — download from microsoft.com
+- Power BI Desktop is free - download from microsoft.com
 
 ---
 
 ## 👤 Author
 
 **Prabin Pokhrel**
-Master's in Business Intelligence — Dalarna University
+Master's in Business Intelligence From Dalarna University
 - GitHub: [@PrabinPokhrel](https://github.com/PrabinPokhrel)
 
 ---
