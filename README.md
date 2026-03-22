@@ -86,7 +86,8 @@ financial_risk/
 ├── PowerBI/
 │   └── Financial_Risk_Dashboard.pbix
 │
-├── loan_risk_analysis.py
+├── Loading and Cleaning.py
+├── ML Models.py
 ├── requirements.txt
 └── README.md
 ```
